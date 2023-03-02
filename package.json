@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "duck-scraper",
   "version": "1.0.0",
   "main": "src/index.ts",
   "license": "MIT",
@@ -13,6 +13,13 @@
     "test:cov": "node --no-warnings --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
   },
   "dependencies": {
+    "ajv": "^8.12.0",
+    "fetch-cookie": "^2.1.0",
+    "instagram-private-api": "^1.45.3",
+    "instagram-scraping": "^1.0.17",
+    "instapro": "^4.0.1",
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.3.0",
     "typescript": "^4.5.4"
   },
   "devDependencies": {
